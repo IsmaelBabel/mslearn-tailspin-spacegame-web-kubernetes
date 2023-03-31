@@ -19,7 +19,7 @@ items:
       spec:
         containers:
           - name: web
-            image: tailspinspacegame18857.azurecr.io/web
+            image: tailspinspacegame27814.azurecr.io/web
             ports:
             - containerPort: 80
 - apiVersion: apps/v1
@@ -38,7 +38,7 @@ items:
       spec:
         containers:
           - name: leaderboard
-            image: tailspinspacegame4692.azurecr.io/leaderboard
+            image: tailspinspacegame27814.azurecr.io/leaderboard
             ports:
             - containerPort: 80
 
